@@ -1,0 +1,168 @@
+@font-face{
+    font-family: 'Bold';
+    src: url(webform-1/Nunito-Bold.ttf);
+}
+@font-face{
+    font-family: 'Regular';
+    src: url(webform-1/Nunito-Regular.ttf);
+}
+
+
+*{
+    zoom: 120%;
+}
+
+.color-1{
+    background-color: skyblue;
+    width: 103%;
+}
+
+.one{
+    background-color: white;
+    margin-left: 40px;
+    margin-right: 10px;    
+    height: 100vh;
+}
+.one input{
+    position: absolute;
+    right: 50px;
+    margin-right: 100px;
+}
+.one img{
+    width: 150px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+.one h1{
+    font-family: 'Regular';
+    text-align: center;
+}
+.one h3{
+    font-family: 'Regular';
+    text-align: center;
+}
+.one p{
+    font-family: 'Bold';
+    padding-left: 50px;
+}
+.one .sumbit{
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+    box-shadow: none;
+    padding: 4px;
+    margin-left: 50%;
+    
+}
+
+/* 2nd form */
+
+.two{
+    background-color: white;
+    border: 0.5px solid black;
+}
+.two h1{
+    text-align: center;
+    background-color: lightgrey;
+    border-bottom: 0.5px solid black;
+}
+.two #name{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 3rd form */
+
+.three h1{
+    background-color: dodgerblue;
+}
+
+.three h4{
+    font-size: 80%;
+    background-color: rgb(250, 205, 165);
+}
+.three table{
+    border-collapse: collapse;
+}
+.three td{
+    padding: 5px;
+    border: 0.5px solid dodgerblue;
+}
+.three .sumbit{
+    background-color: tan;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0.5px solid black;
+}
+.three .reset{
+    background-color: tan;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0.5px solid black;
+}
+.three #name-2{
+    height: 50px;
+}
+.three .center{
+    text-align: center;
+}
+
+/* 4th form */
+
+.color-4{
+    background-color: grey;
+}
+.four{
+    border: 1px solid black;
+    background-color: white;
+}
+.form-color{
+    background-color: white;
+}
+.four h1{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+.four h3{
+    text-align: right;
+}
+.four .border{
+    height: 32px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: rgba(0, 128, 0, 0.644);
+    box-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.705);
+}
+.four .green{
+    color: darkgreen;
+}
+.four .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+}
+.four .right{
+    border-right: 0.5px solid black;
+    text-align: right;
+    color: blue;
+}
+
+/* 5th form */
+
+.radio{
+    display: flex;
+}
+.customer{
+    background-color: lightgrey; 
+    padding: 6px;
+}
+.five #name-5{
+    height: 50px;
+    width: 70%;
+}
